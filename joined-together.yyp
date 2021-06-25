@@ -87,6 +87,7 @@
     {"id":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},"order":1,},
     {"id":{"name":"TweenFinish","path":"scripts/TweenFinish/TweenFinish.yy",},"order":0,},
     {"id":{"name":"ext_Array1D__","path":"scripts/ext_Array1D__/ext_Array1D__.yy",},"order":5,},
+    {"id":{"name":"Level8","path":"rooms/Level8/Level8.yy",},"order":9,},
     {"id":{"name":"EaseInSine","path":"scripts/EaseInSine/EaseInSine.yy",},"order":19,},
     {"id":{"name":"spr_i","path":"sprites/spr_i/spr_i.yy",},"order":7,},
     {"id":{"name":"EaseInOutQuad","path":"scripts/EaseInOutQuad/EaseInOutQuad.yy",},"order":12,},
@@ -260,8 +261,9 @@
     {"roomId":{"name":"Level4","path":"rooms/Level4/Level4.yy",},},
     {"roomId":{"name":"Level5","path":"rooms/Level5/Level5.yy",},},
     {"roomId":{"name":"Level6","path":"rooms/Level6/Level6.yy",},},
-    {"roomId":{"name":"EndScreen","path":"rooms/EndScreen/EndScreen.yy",},},
     {"roomId":{"name":"Level7","path":"rooms/Level7/Level7.yy",},},
+    {"roomId":{"name":"Level8","path":"rooms/Level8/Level8.yy",},},
+    {"roomId":{"name":"EndScreen","path":"rooms/EndScreen/EndScreen.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
