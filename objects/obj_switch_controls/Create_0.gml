@@ -1,4 +1,4 @@
 global.switchControls = false;
-counter = 60;
+canSwitch = true;
 image_index = 0;
 image_speed = 0;
