@@ -33,7 +33,21 @@ if(place_meeting(x + hsp, y, obj_obstacles))
         x = x + sign(hsp);
     }
     hsp = 0;
+	if(global.invertGravity){
+		if(keyJump){
+			vsp = 7;
+			audio_play_sound(snd_jump_2, 10, false);
+			TweenFire(id, EaseInOutQuad, TWEEN_MODE_BOUNCE, false, 0, 5, "image_yscale", 1, 1.5);
+		}     
+	} else {
+		if(keyJump){
+			vsp = -7;
+			audio_play_sound(snd_jump_2, 10, false);
+			TweenFire(id, EaseInOutQuad, TWEEN_MODE_BOUNCE, false, 0, 5, "image_yscale", 1, 1.5);
+		}
+	}
 }
+
 x = x + hsp;
 
 //Vertical Collision
@@ -44,7 +58,6 @@ if(place_meeting(x, y + vsp, obj_obstacles))
         y = y + sign(vsp);
     }
     vsp = 0;
-
 }
 
 y = y + vsp;

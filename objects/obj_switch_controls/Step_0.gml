@@ -9,7 +9,7 @@ if(place_meeting(x, y, obj_players)){
 			image_speed = 0;
 		}
 		canSwitch = false;
-		alarm[0] = 5 * room_speed;
+		alarm[0] = 1 * room_speed;
 	}
 }
 

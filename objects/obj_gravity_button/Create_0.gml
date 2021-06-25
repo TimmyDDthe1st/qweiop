@@ -1,3 +1,2 @@
-/// @description Insert description here
-
+canSwitch = true;
 play_once = true;
