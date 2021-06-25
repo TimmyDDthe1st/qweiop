@@ -5,3 +5,7 @@ vsp = 0;
 grv = 0.3;
 walksp = 4;
 play_once = true;
+coyoteCounter = 0;
+coyoteMax = 50;
+jumped = true;
+onGround = false;

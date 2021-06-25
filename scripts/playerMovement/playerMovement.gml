@@ -11,14 +11,30 @@ if(global.invertGravity)
     vsp = vsp + global.grv;
 }
 
+if(!onGround){
+	coyoteCounter --;
+	if(coyoteCounter >= 0){
+		if(keyJump){
+			vsp = -7;
+			audio_play_sound(snd_jump_2, 10, false);
+			TweenFire(id, EaseInOutQuad, TWEEN_MODE_BOUNCE, false, 0, 5, "image_yscale", 1, 1.5);
+		}
+	
+	}
+} else {
+	coyoteCounter = coyoteMax;
+}
+
+show_debug_message(coyoteCounter);
+
 if(global.invertGravity){
-    if(place_meeting(x, y - 1, obj_obstacles) && (keyJump)){
+    if(onGround && (keyJump)){
         vsp = 7;
         audio_play_sound(snd_jump_2, 10, false);
         TweenFire(id, EaseInOutQuad, TWEEN_MODE_BOUNCE, false, 0, 5, "image_yscale", 1, 1.5);
     }     
 } else {
-    if(place_meeting(x, y + 1, obj_obstacles) && (keyJump)){
+    if(onGround && (keyJump)){
         vsp = -7;
         audio_play_sound(snd_jump_2, 10, false);
         TweenFire(id, EaseInOutQuad, TWEEN_MODE_BOUNCE, false, 0, 5, "image_yscale", 1, 1.5);
@@ -74,8 +90,10 @@ if(!global.invertGravity)
             audio_play_sound(snd_land_2, 10, false)
             play_once = false;
         }
+		onGround = true;
     } else {
-        play_once = true;    
+        play_once = true;  
+		onGround = false;
     }
 } else {
     if(place_meeting(x, y - 1, obj_obstacles)){
@@ -83,8 +101,10 @@ if(!global.invertGravity)
             audio_play_sound(snd_land_2, 10, false)
             play_once = false;
         }
+		onGround = true;
     } else {
-        play_once = true;    
+        play_once = true; 
+		onGround = false;
     }
 }
 
