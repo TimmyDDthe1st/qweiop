@@ -7,8 +7,8 @@ if(is_undefined(obj_players))
 	{
 		global.invertGravity = !global.invertGravity;
 		canSwitch = false;
-		alarm[0] = 3 * room_speed;
-		if(!audio_is_playing(snd_door_button) && play_once){
+		alarm[0] = 1 * room_speed;
+		if(play_once){
 			audio_play_sound(snd_door_button, 10, false)
 			audio_play_sound(snd_gravity_switch, 10, false)
 			play_once = false;
