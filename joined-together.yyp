@@ -169,6 +169,7 @@
     {"id":{"name":"TGMS_FetchTween","path":"scripts/TGMS_FetchTween/TGMS_FetchTween.yy",},"order":4,},
     {"id":{"name":"EaseInBack","path":"scripts/EaseInBack/EaseInBack.yy",},"order":0,},
     {"id":{"name":"__x","path":"scripts/__x/__x.yy",},"order":9,},
+    {"id":{"name":"playerMovement","path":"scripts/playerMovement/playerMovement.yy",},"order":2,},
     {"id":{"name":"direction__","path":"scripts/direction__/direction__.yy",},"order":11,},
     {"id":{"name":"TweenNull","path":"scripts/TweenNull/TweenNull.yy",},"order":1,},
     {"id":{"name":"obj_control_6","path":"objects/obj_control_6/obj_control_6.yy",},"order":7,},
