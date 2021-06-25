@@ -15,9 +15,15 @@ if(!onGround){
 	coyoteCounter --;
 	if(coyoteCounter >= 0){
 		if(keyJump){
-			vsp = -7;
-			audio_play_sound(snd_jump_2, 10, false);
-			TweenFire(id, EaseInOutQuad, TWEEN_MODE_BOUNCE, false, 0, 5, "image_yscale", 1, 1.5);
+			if(global.invertGravity){
+				vsp = 7;
+				audio_play_sound(snd_jump_2, 10, false);
+				TweenFire(id, EaseInOutQuad, TWEEN_MODE_BOUNCE, false, 0, 5, "image_yscale", 1, 1.5);
+			} else {
+				vsp = -7;
+				audio_play_sound(snd_jump_2, 10, false);
+				TweenFire(id, EaseInOutQuad, TWEEN_MODE_BOUNCE, false, 0, 5, "image_yscale", 1, 1.5);
+			}
 		}
 	
 	}
