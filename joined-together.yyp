@@ -11,6 +11,7 @@
     {"id":{"name":"TGMS_Final","path":"scripts/TGMS_Final/TGMS_Final.yy",},"order":5,},
     {"id":{"name":"image_index__","path":"scripts/image_index__/image_index__.yy",},"order":16,},
     {"id":{"name":"TGMS_TargetExists","path":"scripts/TGMS_TargetExists/TGMS_TargetExists.yy",},"order":9,},
+    {"id":{"name":"Level9","path":"rooms/Level9/Level9.yy",},"order":10,},
     {"id":{"name":"obj_music_player","path":"objects/obj_music_player/obj_music_player.yy",},"order":14,},
     {"id":{"name":"TweenSystemFlushDestroyed","path":"scripts/TweenSystemFlushDestroyed/TweenSystemFlushDestroyed.yy",},"order":4,},
     {"id":{"name":"spr_player_2","path":"sprites/spr_player_2/spr_player_2.yy",},"order":1,},
@@ -263,6 +264,7 @@
     {"roomId":{"name":"Level6","path":"rooms/Level6/Level6.yy",},},
     {"roomId":{"name":"Level7","path":"rooms/Level7/Level7.yy",},},
     {"roomId":{"name":"Level8","path":"rooms/Level8/Level8.yy",},},
+    {"roomId":{"name":"Level9","path":"rooms/Level9/Level9.yy",},},
     {"roomId":{"name":"EndScreen","path":"rooms/EndScreen/EndScreen.yy",},},
   ],
   "Folders": [
