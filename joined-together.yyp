@@ -108,6 +108,7 @@
     {"id":{"name":"snd_jump_1","path":"sounds/snd_jump_1/snd_jump_1.yy",},"order":0,},
     {"id":{"name":"spr_q","path":"sprites/spr_q/spr_q.yy",},"order":1,},
     {"id":{"name":"__ext_Array2D","path":"scripts/__ext_Array2D/__ext_Array2D.yy",},"order":1,},
+    {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},"order":15,},
     {"id":{"name":"TweenEasyScale","path":"scripts/TweenEasyScale/TweenEasyScale.yy",},"order":5,},
     {"id":{"name":"obj_players","path":"objects/obj_players/obj_players.yy",},"order":2,},
     {"id":{"name":"Level6","path":"rooms/Level6/Level6.yy",},"order":4,},
@@ -155,6 +156,7 @@
     {"id":{"name":"TGMS_TweenPlay","path":"scripts/TGMS_TweenPlay/TGMS_TweenPlay.yy",},"order":0,},
     {"id":{"name":"ext_PropUser__","path":"scripts/ext_PropUser__/ext_PropUser__.yy",},"order":1,},
     {"id":{"name":"TweenForcePropertyUpdate","path":"scripts/TweenForcePropertyUpdate/TweenForcePropertyUpdate.yy",},"order":11,},
+    {"id":{"name":"Sprite19","path":"sprites/Sprite19/Sprite19.yy",},"order":0,},
     {"id":{"name":"path_orientation__","path":"scripts/path_orientation__/path_orientation__.yy",},"order":21,},
     {"id":{"name":"TweenReverse","path":"scripts/TweenReverse/TweenReverse.yy",},"order":4,},
     {"id":{"name":"snd_door_button","path":"sounds/snd_door_button/snd_door_button.yy",},"order":4,},
@@ -323,6 +325,7 @@
     {"folderPath":"folders/Scripts/TweenGMS/Tweening/Tween State.yy","order":12,"resourceVersion":"1.0","name":"Tween State","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Scripts/TweenGMS/Tweening/Tween Tools.yy","order":13,"resourceVersion":"1.0","name":"Tween Tools","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/terrain/control-switch.yy","order":7,"resourceVersion":"1.0","name":"control-switch","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/enemy.yy","order":11,"resourceVersion":"1.0","name":"enemy","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
